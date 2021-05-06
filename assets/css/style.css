@@ -6,11 +6,7 @@ body{
     font-family:'Antonio', sans-serif;
     
 }
-/* estilo de fondo de la barra de navegacion*/
-.nav{
-    background-color: transparent;
-    position: sticky;
-}
+
 /* ancho de de la imagen del carrusel */
 .imagencarrusel{
     height: 60rem;
@@ -42,7 +38,7 @@ body{
 }
 /* ancho de los iconoa dw footwe*/
 .icon-width{
-  font-size: 3.5rem;
+  font-size: 2rem;
 }
 /* se elimina al section de quienes somos*/
 @media screen and (max-width: 570px){
