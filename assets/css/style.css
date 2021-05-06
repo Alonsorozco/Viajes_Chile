@@ -1,0 +1,95 @@
+:root{
+    --coloronegro:#000000;
+}
+body{
+    background-color: var(--coloronegro);
+    font-family:'Antonio', sans-serif;
+    
+}
+/* estilo de fondo de la barra de navegacion*/
+.nav{
+    background-color: transparent;
+    position: sticky;
+}
+/* ancho de de la imagen del carrusel */
+.imagencarrusel{
+    height: 60rem;
+
+/* fondos de las card de quienes somos */
+}
+.bg-negro{
+    background-color:var(--coloronegro);
+}
+/* borde de la car de quienes somos*/
+.sin-borde{
+        border: none;
+
+}
+
+
+.logo{
+    width: 3rem;
+}
+/* estilo del ancho del nav*/
+.nav-width{
+    width: 90%;
+
+}
+/* estilo del alto de las imanges de las car destacados*/
+.img-card-width{
+    height: 15rem;
+
+}
+/* ancho de los iconoa dw footwe*/
+.icon-width{
+  font-size: 3.5rem;
+}
+/* se elimina al section de quienes somos*/
+@media screen and (max-width: 570px){
+
+.quieneSomos{
+    display:none;    
+}
+}
+
+@media screen and (max-width: 570px){
+
+.imagencarrusel{
+        width: 20rem;  
+        height: 20rem; 
+    }
+    }
+
+@media screen and (max-width: 570px){
+
+.icon-width{
+        font-size: 1rem; 
+        margin-right: -10rem;
+}
+}
+
+@media screen and (max-width: 570px){
+
+.logo-footer{
+                font-size: 1rem; 
+
+}
+}
+
+@media screen and (max-width: 570px){
+
+    .sinmargen{
+    margin:none;
+    
+    }
+    }
+    
+    @media screen and (max-width: 570px){
+
+        .padding-right{
+    padding: 12px;
+
+        
+        }
+    }
+        
