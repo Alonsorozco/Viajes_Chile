@@ -1,7 +1,7 @@
 Examen final Fundamentos Desarrollo web (g46)
 
 
-Url Pagina:
+Url Pagina de mi examen:https://alonsorozco.github.io/Viajes_Chile/
 
 La página debe contener las siguientes secciones:
 .
