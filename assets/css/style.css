@@ -7,49 +7,58 @@ body{
     
 }
 
+/* ancho logo*/
+.svg-logo{
+    width: 3rem;
+}
+
+/* estilo del ancho del nav*/
+.nav-width{
+    width: 90%;
+
+}
+
 /* ancho de de la imagen del carrusel */
 .imagencarrusel{
-    height: 60rem;
+    height: 80rem;
 
 /* fondos de las card de quienes somos */
 }
 .bg-negro{
     background-color:var(--coloronegro);
 }
+
 /* borde de la car de quienes somos*/
 .sin-borde{
         border: none;
+}
 
+
+
+/* estilo del alto de las imanges de las car destacados*/
+.img-card-width{
+    height: 15rem;
 }
 
 .logo-footer ,.icon-footer, .icon-grup{
     display: inline-block;
 }
-.icon-grup{
-    padding-left: 50rem;
-}
-.icon-footer
 
-/* ancho logo*/
-
-.logo{
-    width: 3rem;
-}
-/* estilo del ancho del nav*/
-.nav-width{
-    width: 90%;
-
-}
-/* estilo del alto de las imanges de las car destacados*/
-.img-card-width{
-    height: 15rem;
-
-}
 /* ancho de los iconoa dw footwe*/
 .icon-width{
     font-size: 2rem;
     
 }
+
+.icon-grup{
+    padding: 3rem;
+}
+
+
+
+
+
+
 /* se elimina al section de quienes somos*/
 @media screen and (max-width: 570px){
 
