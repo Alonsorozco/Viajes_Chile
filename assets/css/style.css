@@ -21,7 +21,15 @@ body{
         border: none;
 
 }
-/* altura logo*/
+
+.logo-footer ,.icon-footer, .icon-grup{
+    display: inline-block;
+}
+.icon-grup{
+    padding-left: 50rem;
+}
+
+/* ancho logo*/
 
 .logo{
     width: 3rem;
@@ -38,7 +46,8 @@ body{
 }
 /* ancho de los iconoa dw footwe*/
 .icon-width{
-  font-size: 2rem;
+    font-size: 2rem;
+    
 }
 /* se elimina al section de quienes somos*/
 @media screen and (max-width: 570px){
@@ -60,7 +69,6 @@ body{
 
 .icon-width{
         font-size: 1rem; 
-        margin-right: -10rem;
 }
 }
 
