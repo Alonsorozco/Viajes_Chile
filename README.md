@@ -3,6 +3,25 @@ Examen final Fundamentos Desarrollo web (g46)
 
 Url Pagina de mi examen:https://alonsorozco.github.io/Viajes_Chile/
 
+
+Version :
+
+Bootstrap 4.6
+
+Version Jquery 3.6
+
+popper.js 1.16.1
+
+
+
+
+
+
+
+
+
+
+
 La página debe contener las siguientes secciones:
 .
 ● Una barra de navegación fija en la parte superior de la pantalla, con el logo y links a
