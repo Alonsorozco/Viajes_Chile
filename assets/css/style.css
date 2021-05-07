@@ -1,5 +1,6 @@
 :root{
     --coloronegro:#000000;
+    --big:#17a2b8;
 }
 body{
     background-color: var(--coloronegro);
@@ -20,7 +21,7 @@ body{
 }
 
 .navbar{
-    background-color: transparent;
+    background-color:transparent;
 }
 
 
