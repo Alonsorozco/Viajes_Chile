@@ -8,13 +8,14 @@ $(function(){
     }, 800, function(){ 
     window.location.hash = gato; 
 
-      }); 
+}); 
+} 
+}); 
+  
 
-    } 
 
-  }); 
 
- 
+
   $('[data-toggle="tooltip"]').tooltip() 
 
 }); 
