@@ -12,6 +12,7 @@ Version Jquery 3.6
 
 popper.js 1.16.1
 
+modales
 
 
 
