@@ -3,6 +3,10 @@ Examen final Fundamentos Desarrollo web (g46)
 
 Url Pagina de mi examen:https://alonsorozco.github.io/Viajes_Chile/
 
+Faltaria:
+Ordenar codigo
+comenta lo que falta
+elmina quines somos en el nav para mobil
 
 Version :
 
