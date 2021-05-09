@@ -21,9 +21,23 @@ body{
 }
 
 .navbar{
-    background-color:transparent;
+    background-color:var(--big);
 }
 
+.m-quienesomos{
+    padding-top:4rem;
+
+}
+
+.m-card{
+    padding-top:4rem;
+
+}
+
+.m-contacto{
+    padding-top:4rem;
+
+}
 
 /* ancho de de la imagen del carrusel */
 .imagencarrusel{
@@ -40,9 +54,8 @@ body{
         border: none;
 }
 
-.card .card-body.img{
-    width: 26.5rem;
-    height: 5rem;
+.card-container{
+    min-height: 35rem;
 }
 
 /* estilo del alto de las imanges de las card destacados*/

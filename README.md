@@ -16,15 +16,9 @@ modales
 
 
 
-
-
-
-
-
-
-
 La página debe contener las siguientes secciones:
-.
+
+
 ● Una barra de navegación fija en la parte superior de la pantalla, con el logo y links a
 diferentes secciones de la página, haciendo un smooth scroll.
 
