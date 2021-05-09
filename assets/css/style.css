@@ -20,6 +20,9 @@ body{
     width: 90%;
 
 }
+.imagencarrusel{
+    height: 48rem;
+}
 
 .navbar{
     background-color:var(--big);
