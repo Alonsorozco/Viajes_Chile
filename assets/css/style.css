@@ -24,11 +24,11 @@ body{
 /* largo de la imagen*/
 
 .imagencarrusel{
-    height:58rem;
+    height:65rem;
 }
 
 .container-xxl{
-    max-width: 117rem;
+    max-width: 119rem;
     margin-left: auto;
     margin-right: auto;
     
