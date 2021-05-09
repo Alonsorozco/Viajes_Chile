@@ -27,7 +27,7 @@ body{
 
 /* ancho de de la imagen del carrusel */
 .imagencarrusel{
-    height: 80rem;
+    height: 59rem;
 
 /* fondos de las card de quienes somos */
 }
@@ -40,9 +40,12 @@ body{
         border: none;
 }
 
+.card .card-body.img{
+    width: 26.5rem;
+    height: 5rem;
+}
 
-
-/* estilo del alto de las imanges de las car destacados*/
+/* estilo del alto de las imanges de las card destacados*/
 .img-card-width{
     height: 15rem;
 }
