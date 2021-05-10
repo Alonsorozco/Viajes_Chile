@@ -199,7 +199,7 @@ body{
 }
 }
 
-/* modificacion de la altura de las card de la seccion destacados para la resolucion  991px */
+/* modificacion de la altura de las card de la seccion destacados para la resolucion  765px */
 
 @media screen and (max-width: 765px){
 
@@ -208,7 +208,7 @@ body{
 }
 }
 
-/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles  */
+/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles 540px  */
 
 @media screen and (max-width: 540px){
 
@@ -218,7 +218,7 @@ body{
     }
 
 
-/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles  */
+/* modificacion de la altura de las card de la seccion destacados para la resolucion para mobiles 540px */
 
 @media screen and (max-width: 569px){
 
