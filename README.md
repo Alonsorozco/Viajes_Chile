@@ -17,7 +17,7 @@ popper.js 1.16.1
 Discripcion de examen
 
 
-En la seccion de ¿quiene somos ? ocupe los siguiente recursos.
+En la seccion de ¿quiene somos ? ocupe los siguiente componentes.
 
 
 Modales : se pueden obsevar presionando los iconos de cada tarjeta 
@@ -28,7 +28,7 @@ tooltip: lo aplique en los botones de los iconos
 Poopover: lo aplique en dentro de los modales en el boton contacto.
 
 
-En la seccion de "Destacados"ocupe los siguiente recursos:
+En la seccion de "Destacados"ocupe la siguiente animancion y componente:
 
 -Animacion de las fotos por media jquery.
 
