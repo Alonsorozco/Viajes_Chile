@@ -35,7 +35,7 @@ En la seccion de "Destacados"ocupe la siguiente animancion y componente:
 -tooltip en las fotos
 
 
-trabaje con la aplicacion Respomsively, tome de referencias la imagen que aparece en el pdf del examen y fue vericando las diferente resoluciones que entrega la aplicacion.
+trabaje con la aplicacion Respomsively, tome de referencias la imagen que aparece en el pdf del examen y fui verificando las diferente resoluciones que entrega la aplicacion.
 
 ( resolucion 1920 X 1080 corresponde a mi monitor )
 
