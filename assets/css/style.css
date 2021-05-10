@@ -21,12 +21,14 @@ body{
 
 }
 
-/* largo de la imagen*/
+/* largo de la imagen carrusel*/
 
 .imagencarrusel{
     height:58rem;
 }
 
+
+/* tamaños del container de carrousel*/
 .container-xxl{
     max-width: 120rem;
     margin-left: auto;
@@ -34,28 +36,26 @@ body{
     
 }
 
+/* color de navbar*/
 .navbar{
     background-color:var(--big);
 }
 
+/* padding para la seccion (titulo) quienes somos*/
 .m-quienesomos{
     padding-top:1.5rem;
 
 }
-
+/* padding para la seccion (titulo) destacados*/
 .m-card{
     padding-top:1.5rem;
 
 }
-
+/* padding para la seccion (titulo) contacto*/
 .m-contacto{
     padding-top:4rem;
 
 }
-
-
-
-
 
 /* fondos de las card de quienes somos */
 
@@ -63,11 +63,12 @@ body{
     background-color:var(--coloronegro);
 }
 
-/* borde de la car de quienes somos*/
+/* borde de la card de quienes somos*/
 .sin-borde{
         border: none;
 }
 
+/* minimo ancjo  para las card*/
 .card-container{
     min-height: 30rem;
 }
@@ -77,6 +78,7 @@ body{
     height: 10rem;
 }
 
+/* cambio en footer para dejer los elementos en linea*/
 .logo-footer ,.icon-footer, .icon-grup{
     display: inline-block;
 }
@@ -86,20 +88,17 @@ body{
     font-size: 2rem;
     
 }
-
+/* padding del grupo de iconos*/
 .icon-grup {
     padding-left:45rem;
 }
 
+/* mergen iconos footer*/
 .icon-footer{
     margin-left: 1rem;
 }
 
-
-
-
-
-/* se elimina al section de quienes somos*/
+/* se elimina la seccion de quienes somos para la resolucion de telefonos mobiles*/
 @media screen and (max-width: 570px){
 
 .quieneSomos{
@@ -107,6 +106,7 @@ body{
 }
 }
 
+/* cambio de imagen de tamaño carrousel para resolucion de telefonos mobiles */
 @media screen and (max-width: 570px){
 
 .imagencarrusel{
@@ -116,16 +116,9 @@ body{
     }
     }
 
-    @media screen and (max-width: 570px){
-
-        .carousel-control-prev{
-            padding-left: 1rem;
-            
-            
-            }
-            }
 
 
+/* tamaños de los iconos en resolucion para telefonos mobiles  */
 @media screen and (max-width: 570px){
 
 .icon-width{
@@ -133,30 +126,17 @@ body{
 }
 }
 
+/* tamaños del logo del footer en resolucion para telefonos mobiles  */
 @media screen and (max-width: 570px){
 
 .logo-footer{
-                font-size: 1rem; 
+    font-size: 1rem; 
 
 }
 }
 
-@media screen and (max-width: 570px){
 
-    .sinmargen{
-    margin:none;
-    
-    }
-    }
-    
-    @media screen and (max-width: 570px){
-
-        .padding-right{
-    padding: 12px;
-
-        
-}
-}
+/* padding para el grupo de iconos de footer  */
 
 @media screen and (max-width: 570px){
 
@@ -165,6 +145,8 @@ body{
     }
 }
 
+
+/* elimino el link en el nav a quienes somo en resolucion para mobiles  */
 @media screen and (max-width: 570px){
 
     .nav-quienes{
@@ -172,78 +154,107 @@ body{
     }
 }
 
-
+/* modificaion en el paggin en grupo de iconos para la resolucion 1201px  */
 
 @media screen and (max-width: 1201px){
 
-    .icon-grup{
+icon-grup{
         padding-left:1rem
     }
 }
 
+/* animacion de las imagenes de la seccionde las tarjes de la resolucion 600px  hacia arriba */
+
 @media only screen and (min-width: 600px) {
-    .card img:hover{
-        transform: scale(1.03);
+.card img:hover{
+    transform: scale(1.03);
     
     }
     }
 
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1082px  */
 
-    @media screen and (max-width: 1082px){
+@media screen and (max-width: 1082px){
 
-        .card-container{
-            min-height: 37rem;
-    }
-    }
+.card-container{
+    min-height: 37rem;
+}
+}
 
-    @media screen and (max-width: 1015px){
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1082px  */
 
-        .card-container{
-            min-height: 38rem;
-    }
-    }
+@media screen and (max-width: 1015px){
 
-    @media screen and (max-width: 1154px){
+.card-container{
+    min-height: 38rem;
+}
+}
 
-        .card-container{
-            min-height: 39rem;
-    }
-    }
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1082px  */
 
-    @media screen and (max-width: 570px){
+@media screen and (max-width: 1154px){
 
-        .card-container{
-            min-height: 10rem;
-    }
-    }
+.card-container{
+    min-height: 39rem;
+}
+}
 
-    @media screen and (max-width: 1157px){
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 570px */
 
-        .card-container{
-            min-height: 35rem;
-    }
-    }
+@media screen and (max-width: 570px){
+.card-container{
+    min-height: 5rem;
+}
+}
 
-    @media screen and (max-width: 1186px){
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1157px */
 
-        .card-container{
-            min-height: 35rem;
-    }
-    }
+@media screen and (max-width: 1157px){
 
-    @media screen and (max-width: 1197px){
+.card-container{
+    min-height: 35rem;
+}
+}
 
-        .card-container{
-            min-height: 36rem;
-    }
-    }
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1186px */
 
-    @media screen and (max-width: 375px){
+@media screen and (max-width: 1186px){
 
-        .card-container{
-            min-height: 10rem;
-    }
-    }
+.card-container{
+    min-height: 35rem;
+}
+}
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 1197px */
+
+@media screen and (max-width: 1197px){
+
+.card-container{
+    min-height: 36rem;
+}
+}
+
+
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 768px ipad mini */
+
+@media screen and (max-width: 768px){
+    .card-container{
+        min-height: 28rem;
+}
+}
+
+/* modificacion de la altura de las card de la seccion destacados para la resolucion 990px  i*/
+@media screen and (max-width: 990px){
+    .card-container{
+        min-height: 29rem;
+}
+}
+
+
+
+
+
 
 
 
